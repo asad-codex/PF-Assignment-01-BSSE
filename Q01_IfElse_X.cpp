@@ -7,9 +7,9 @@ int main() {
     cin>>y;
     if (y == 10) {
     x = 0;
-}   else {
+} else {
     x = 1;
 }
-    cout<<"The value of x is: "<<x <<endl;
+    cout<<"The Value of x is: "<<x <<endl;
     return 0;
 }
