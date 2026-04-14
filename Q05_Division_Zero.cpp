@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double numerator, denominator;
+
+    cout << "Enter the numerator: ";
+    cin >> numerator;
+    cout << "Enter the denominator: ";
+    cin >> denominator;
+
+    if (denominator != 0) {
+        double result = numerator / denominator;
+        cout << "Result: " << result << endl;
+    } 
+    else {
+        cout << "Division by zero is not possible" << endl;
+    }
+
+    return 0;
+}
